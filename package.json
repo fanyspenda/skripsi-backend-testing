@@ -1,0 +1,24 @@
+{
+	"name": "skripsi-testing",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dashboard-graphql.js",
+	"scripts": {
+		"test dashboard rest": "k6 run --summary-export=\"./result/dashboardRest.json\" dashboard-rest.js",
+		"test listalumni rest": "k6 run --summary-export=\"./result/listAlumniRest.json\" listAlumni-rest.js",
+		"test editalumni rest": "k6 run --summary-export=\"./result/editAlumniRest.json\" editAlumni-rest.js",
+		"test dashboard graphql": "k6 run --summary-export=\"./result/dashboardGraphQL.json\" dashboard-graphql.js",
+		"test listalumni graphql": "k6 run --summary-export=\"./result/listAlumniGraphQL.json\" listAlumni-graphql.js",
+		"test editalumni graphql": "k6 run --summary-export=\"./result/editAlumniGraphQL.json\" editAlumni-graphql.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fanyspenda/skripsi-testing.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/fanyspenda/skripsi-testing/issues"
+	},
+	"homepage": "https://github.com/fanyspenda/skripsi-testing#readme"
+}
