@@ -1,8 +1,6 @@
 import http from "k6/http";
 import { check } from "k6";
-
-const token =
-	"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW4iLCJsZXZlbCI6MCwiaWF0IjoxNTkxOTM4MDI1LCJleHAiOjE1OTIwMjQ0MjV9.mUhh_CVU-Kvue0v2HZiCCjW4OAPz71JmwmEeBC48Gww";
+import { token } from "./token.js";
 
 const QUERY = `
 query allAlumni {
