@@ -1,0 +1,142 @@
+{
+    "metrics": {
+        "checks": {
+            "fails": 0,
+            "passes": 50,
+            "value": 0
+        },
+        "data_received": {
+            "count": 170490,
+            "rate": 8524.43029615969
+        },
+        "data_sent": {
+            "count": 38490,
+            "rate": 1924.4842635884008
+        },
+        "http_req_blocked": {
+            "avg": 1505.49644643318,
+            "max": 2477.459076,
+            "med": 1364.54326,
+            "min": 1171.315808,
+            "p(90)": 2431.9019328000004,
+            "p(95)": 2457.7986554
+        },
+        "http_req_connecting": {
+            "avg": 297.7788962764977,
+            "max": 459.194214,
+            "med": 291.829104,
+            "min": 247.323872,
+            "p(90)": 323.40708159999997,
+            "p(95)": 353.2065415999999
+        },
+        "http_req_duration": {
+            "avg": 10079.614113096774,
+            "max": 17519.103227,
+            "med": 10328.380087,
+            "min": 1957.291601,
+            "p(90)": 16365.7035304,
+            "p(95)": 16843.81212
+        },
+        "http_req_receiving": {
+            "avg": 0.08949023963133637,
+            "max": 0.304673,
+            "med": 0.083758,
+            "min": 0.030454,
+            "p(90)": 0.1114296,
+            "p(95)": 0.12254499999999997
+        },
+        "http_req_sending": {
+            "avg": 0.08589170506912443,
+            "max": 0.320317,
+            "med": 0.077747,
+            "min": 0.047831,
+            "p(90)": 0.1194552,
+            "p(95)": 0.1472264
+        },
+        "http_req_tls_handshaking": {
+            "avg": 1059.8165142995388,
+            "max": 2002.3517,
+            "med": 917.036773,
+            "min": 803.91055,
+            "p(90)": 1956.4854188,
+            "p(95)": 1981.7618298
+        },
+        "http_req_waiting": {
+            "avg": 10079.438731152075,
+            "max": 17518.884727,
+            "med": 10328.193562,
+            "min": 1957.078601,
+            "p(90)": 16365.516962,
+            "p(95)": 16843.670856
+        },
+        "http_reqs": {
+            "count": 217,
+            "rate": 10.849911280817953
+        },
+        "iteration_duration": {
+            "avg": 16676.067779700003,
+            "max": 19258.917216,
+            "med": 17972.724186,
+            "min": 11493.954199,
+            "p(90)": 19165.7647095,
+            "p(95)": 19212.34096275
+        },
+        "iterations": {
+            "count": 10,
+            "rate": 0.499995911558431
+        },
+        "vus": {
+            "max": 100,
+            "min": 100,
+            "value": 100
+        },
+        "vus_max": {
+            "max": 100,
+            "min": 100,
+            "value": 100
+        }
+    },
+    "root_group": {
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {},
+        "checks": {
+            "is response CountAll 200?": {
+                "name": "is response CountAll 200?",
+                "path": "::is response CountAll 200?",
+                "id": "3a9f2e0f9e07b4051996e41333547c29",
+                "passes": 10,
+                "fails": 0
+            },
+            "is response countAlumni 200?": {
+                "name": "is response countAlumni 200?",
+                "path": "::is response countAlumni 200?",
+                "id": "98a43388412b337559970dd48af53005",
+                "passes": 10,
+                "fails": 0
+            },
+            "is response countLinkedin 200?": {
+                "name": "is response countLinkedin 200?",
+                "path": "::is response countLinkedin 200?",
+                "id": "0f1dedd9429eb6e10c9c1afcaf8cca71",
+                "passes": 10,
+                "fails": 0
+            },
+            "is response countNotWorking 200?": {
+                "name": "is response countNotWorking 200?",
+                "path": "::is response countNotWorking 200?",
+                "id": "9d4f6aa20c8ca3975d268d193fb49e76",
+                "passes": 10,
+                "fails": 0
+            },
+            "is response countWorking 200?": {
+                "name": "is response countWorking 200?",
+                "path": "::is response countWorking 200?",
+                "id": "8d5694147ea605da4b53e755ac9a02f7",
+                "passes": 10,
+                "fails": 0
+            }
+        }
+    }
+}
