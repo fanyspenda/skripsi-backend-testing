@@ -4,12 +4,12 @@
 	"description": "",
 	"main": "dashboard-graphql.js",
 	"scripts": {
-		"test dashboard rest": "k6 run --vus 100 --duration 20s --summary-export=\"./result/dashboardRest.json\" dashboard-rest.js",
-		"test dashboard graphql": "k6 run --vus 100 --duration 20s --summary-export=\"./result/dashboardGraphQL.json\" dashboard-graphql.js",
-		"test listalumni rest": "k6 run --vus 100 --duration 20s --summary-export=\"./result/listAlumniRest.json\" listAlumni-rest.js",
-		"test listalumni graphql": "k6 run --vus 100 --duration 20s --summary-export=\"./result/listAlumniGraphQL.json\" listAlumni-graphql.js",
-		"test editalumni rest": "k6 run --vus 100 --duration 20s --summary-export=\"./result/editAlumniRest.json\" editAlumni-rest.js",
-		"test editalumni graphql": "k6 run --vus 100 --duration 20s --summary-export=\"./result/editAlumniGraphQL.json\" editAlumni-graphql.js"
+		"test dashboard rest": "k6 run --vus 50 --duration 1m --summary-export=\"./result/dashboardRest.json\" dashboard-rest.js",
+		"test dashboard graphql": "k6 run --vus 50 --duration 1m --summary-export=\"./result/dashboardGraphQL.json\" dashboard-graphql.js",
+		"test listalumni rest": "k6 run --vus 50 --duration 1m --summary-export=\"./result/listAlumniRest.json\" listAlumni-rest.js",
+		"test listalumni graphql": "k6 run --vus 50 --duration 1m --summary-export=\"./result/listAlumniGraphQL.json\" listAlumni-graphql.js",
+		"test editalumni rest": "k6 run --vus 50 --duration 1m --summary-export=\"./result/editAlumniRest.json\" editAlumni-rest.js",
+		"test editalumni graphql": "k6 run --vus 50 --duration 1m --summary-export=\"./result/editAlumniGraphQL.json\" editAlumni-graphql.js"
 	},
 	"repository": {
 		"type": "git",
